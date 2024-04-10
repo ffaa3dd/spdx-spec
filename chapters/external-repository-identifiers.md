@@ -43,21 +43,21 @@ Documentation: <https://cpe.mitre.org/files/cpe-specification_2.2.pdf>
 Locator Format:
 
 ```text
-cpe:2\.3:[aho\*\­]
-(:(((\?*|\*?)([a­zA­Z0­9\­\._]|(\\[\\\*\?!
+cpe:2\.3:[aho\*\-]
+(:(((\?*|\*?)([a-zA-Z0-9\-\._]|(\\[\\\*\?!
 "#$$%&'\(\)\+,/:;<=>@\[\]\^`\{\|}~])
-)+(\?*|\*?))|[\*\­])){5}
-(:(([a­zA­Z]{2,3}(­([a­zA­Z]{2}|[0­9]{3
-}))?)|[\*\­]))
-(:(((\?*|\*?)([a­zA­Z0­9\­\._]|(\\[\\\*\?!
+)+(\?*|\*?))|[\*\-])){5}
+(:(([a-zA-Z]{2,3}(-([a-zA-Z]{2}|[0-9]{3
+}))?)|[\*\-]))
+(:(((\?*|\*?)([a-zA-Z0-9\-\._]|(\\[\\\*\?!
 "#$$%&'\(\)\+,/:;<=>@\[\]\^`\{\|}~])
-)+(\?*|\*?))|[\*\­])){4}
+)+(\?*|\*?))|[\*\-])){4}
 ```
 
 Contextual Example:
 
 ```text
-cpe:2.3:o:canonical:ubuntu_linux:10.04:­:lts:*:*:*:*:*
+cpe:2.3:o:canonical:ubuntu_linux:10.04:-:lts:*:*:*:*:*
 ```
 
 External Reference Site: <https://nvd.nist.gov/products/cpe>
@@ -92,7 +92,11 @@ Documentation: A reference to related security information of unspecified type.
 
 Locator format: URI as defined by <https://www.ietf.org/archive/id/draft-ietf-sacm-coswid-21.html#name-uri-schemes>
 
-Conceptual Example: 2df9de35-0aff-4a86-ace6-f7dddd1ade4c
+Contextual Example:
+
+```text
+swid:2df9de35-0aff-4a86-ace6-f7dddd1ade4c
+```
 
 External Reference Site: <https://csrc.nist.gov/Projects/Software-Identification-SWID>
 
