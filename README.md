@@ -14,16 +14,7 @@ This repository holds under active development version of the specification as:
 
 See for the official [releases of the specification](https://spdx.org/specifications) or additional information also the [SPDX website](https://spdx.org).
 
-# Building the specification
+* [PDF](https://spdx.github.io/spdx-spec/v2.3/spdx-spec-2.3.pdf)
+* [Word][def]
 
-## Prerequisites
-
-You have to [MkDocs](http://mkdocs.org) installed on your machine. If you don't have it yet installed please follow these [installation instructions](http://www.mkdocs.org/#installation).
-
-## Building HTML
-
-    # Execute built-in dev-server that lets you preview the specification
-    $ mkdocs serve
-
-    # Building static HTML site
-    $ mkdocs build
+[def]: https://spdx.github.io/spdx-spec/v2.3/spdx-spec-2.3.docx
